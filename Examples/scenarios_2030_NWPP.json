@@ -1,0 +1,977 @@
+{
+    "1": {
+        "state": "NWPP",
+        "state_name": "nwpp",
+        "model_region": "NWPP",
+        "jurisdiction": "NWPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CA",
+            "ID",
+            "MT",
+            "NV",
+            "OR",
+            "UT",
+            "WA"
+        ],
+        "included_nodes": [
+            "WECC_MT",
+            "WEC_BANC",
+            "WECC_ID",
+            "WECC_NNV",
+            "WECC_SNV",
+            "WECC_UT",
+            "WECC_PNW"
+        ],
+        "group": "Base only",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CA": {
+                "rps_ratio": 0.5
+            },
+            "ID": {
+                "rps_ratio": 0.0
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "NV": {
+                "rps_ratio": 0.4
+            },
+            "OR": {
+                "rps_ratio": 0.12178
+            },
+            "UT": {
+                "rps_ratio": 0.0
+            },
+            "WA": {
+                "rps_ratio": 0.05
+            }
+        }
+    },
+    "2": {
+        "state": "NWPP",
+        "state_name": "nwpp",
+        "model_region": "NWPP",
+        "jurisdiction": "NWPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CA",
+            "ID",
+            "MT",
+            "NV",
+            "OR",
+            "UT",
+            "WA"
+        ],
+        "included_nodes": [
+            "WECC_MT",
+            "WEC_BANC",
+            "WECC_ID",
+            "WECC_NNV",
+            "WECC_SNV",
+            "WECC_UT",
+            "WECC_PNW"
+        ],
+        "group": "Base only",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CA": {
+                "rps_ratio": 0.6
+            },
+            "ID": {
+                "rps_ratio": 0.0
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "NV": {
+                "rps_ratio": 0.5
+            },
+            "OR": {
+                "rps_ratio": 0.22178
+            },
+            "UT": {
+                "rps_ratio": 0.0
+            },
+            "WA": {
+                "rps_ratio": 0.15
+            }
+        }
+    },
+    "3": {
+        "state": "NWPP",
+        "state_name": "nwpp",
+        "model_region": "NWPP",
+        "jurisdiction": "NWPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CA",
+            "ID",
+            "MT",
+            "NV",
+            "OR",
+            "UT",
+            "WA"
+        ],
+        "included_nodes": [
+            "WECC_MT",
+            "WEC_BANC",
+            "WECC_ID",
+            "WECC_NNV",
+            "WECC_SNV",
+            "WECC_UT",
+            "WECC_PNW"
+        ],
+        "group": "Base only",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CA": {
+                "rps_ratio": 0.7
+            },
+            "ID": {
+                "rps_ratio": 0.0
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "NV": {
+                "rps_ratio": 0.6
+            },
+            "OR": {
+                "rps_ratio": 0.32178
+            },
+            "UT": {
+                "rps_ratio": 0.0
+            },
+            "WA": {
+                "rps_ratio": 0.25
+            }
+        }
+    },
+    "4": {
+        "state": "NWPP",
+        "state_name": "nwpp",
+        "model_region": "NWPP",
+        "jurisdiction": "NWPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CA",
+            "ID",
+            "MT",
+            "NV",
+            "OR",
+            "UT",
+            "WA"
+        ],
+        "included_nodes": [
+            "WECC_MT",
+            "WEC_BANC",
+            "WECC_ID",
+            "WECC_NNV",
+            "WECC_SNV",
+            "WECC_UT",
+            "WECC_PNW"
+        ],
+        "group": "V1G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CA": {
+                "rps_ratio": 0.5
+            },
+            "ID": {
+                "rps_ratio": 0.0
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "NV": {
+                "rps_ratio": 0.4
+            },
+            "OR": {
+                "rps_ratio": 0.12178
+            },
+            "UT": {
+                "rps_ratio": 0.0
+            },
+            "WA": {
+                "rps_ratio": 0.05
+            }
+        }
+    },
+    "5": {
+        "state": "NWPP",
+        "state_name": "nwpp",
+        "model_region": "NWPP",
+        "jurisdiction": "NWPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CA",
+            "ID",
+            "MT",
+            "NV",
+            "OR",
+            "UT",
+            "WA"
+        ],
+        "included_nodes": [
+            "WECC_MT",
+            "WEC_BANC",
+            "WECC_ID",
+            "WECC_NNV",
+            "WECC_SNV",
+            "WECC_UT",
+            "WECC_PNW"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CA": {
+                "rps_ratio": 0.6
+            },
+            "ID": {
+                "rps_ratio": 0.0
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "NV": {
+                "rps_ratio": 0.5
+            },
+            "OR": {
+                "rps_ratio": 0.22178
+            },
+            "UT": {
+                "rps_ratio": 0.0
+            },
+            "WA": {
+                "rps_ratio": 0.15
+            }
+        }
+    },
+    "6": {
+        "state": "NWPP",
+        "state_name": "nwpp",
+        "model_region": "NWPP",
+        "jurisdiction": "NWPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CA",
+            "ID",
+            "MT",
+            "NV",
+            "OR",
+            "UT",
+            "WA"
+        ],
+        "included_nodes": [
+            "WECC_MT",
+            "WEC_BANC",
+            "WECC_ID",
+            "WECC_NNV",
+            "WECC_SNV",
+            "WECC_UT",
+            "WECC_PNW"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CA": {
+                "rps_ratio": 0.7
+            },
+            "ID": {
+                "rps_ratio": 0.0
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "NV": {
+                "rps_ratio": 0.6
+            },
+            "OR": {
+                "rps_ratio": 0.32178
+            },
+            "UT": {
+                "rps_ratio": 0.0
+            },
+            "WA": {
+                "rps_ratio": 0.25
+            }
+        }
+    },
+    "7": {
+        "state": "NWPP",
+        "state_name": "nwpp",
+        "model_region": "NWPP",
+        "jurisdiction": "NWPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CA",
+            "ID",
+            "MT",
+            "NV",
+            "OR",
+            "UT",
+            "WA"
+        ],
+        "included_nodes": [
+            "WECC_MT",
+            "WEC_BANC",
+            "WECC_ID",
+            "WECC_NNV",
+            "WECC_SNV",
+            "WECC_UT",
+            "WECC_PNW"
+        ],
+        "group": "V2G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CA": {
+                "rps_ratio": 0.5
+            },
+            "ID": {
+                "rps_ratio": 0.0
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "NV": {
+                "rps_ratio": 0.4
+            },
+            "OR": {
+                "rps_ratio": 0.12178
+            },
+            "UT": {
+                "rps_ratio": 0.0
+            },
+            "WA": {
+                "rps_ratio": 0.05
+            }
+        }
+    },
+    "8": {
+        "state": "NWPP",
+        "state_name": "nwpp",
+        "model_region": "NWPP",
+        "jurisdiction": "NWPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CA",
+            "ID",
+            "MT",
+            "NV",
+            "OR",
+            "UT",
+            "WA"
+        ],
+        "included_nodes": [
+            "WECC_MT",
+            "WEC_BANC",
+            "WECC_ID",
+            "WECC_NNV",
+            "WECC_SNV",
+            "WECC_UT",
+            "WECC_PNW"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CA": {
+                "rps_ratio": 0.6
+            },
+            "ID": {
+                "rps_ratio": 0.0
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "NV": {
+                "rps_ratio": 0.5
+            },
+            "OR": {
+                "rps_ratio": 0.22178
+            },
+            "UT": {
+                "rps_ratio": 0.0
+            },
+            "WA": {
+                "rps_ratio": 0.15
+            }
+        }
+    },
+    "9": {
+        "state": "NWPP",
+        "state_name": "nwpp",
+        "model_region": "NWPP",
+        "jurisdiction": "NWPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CA",
+            "ID",
+            "MT",
+            "NV",
+            "OR",
+            "UT",
+            "WA"
+        ],
+        "included_nodes": [
+            "WECC_MT",
+            "WEC_BANC",
+            "WECC_ID",
+            "WECC_NNV",
+            "WECC_SNV",
+            "WECC_UT",
+            "WECC_PNW"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CA": {
+                "rps_ratio": 0.7
+            },
+            "ID": {
+                "rps_ratio": 0.0
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "NV": {
+                "rps_ratio": 0.6
+            },
+            "OR": {
+                "rps_ratio": 0.32178
+            },
+            "UT": {
+                "rps_ratio": 0.0
+            },
+            "WA": {
+                "rps_ratio": 0.25
+            }
+        }
+    },
+    "10": {
+        "state": "NWPP",
+        "state_name": "nwpp",
+        "model_region": "NWPP",
+        "jurisdiction": "NWPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CA",
+            "ID",
+            "MT",
+            "NV",
+            "OR",
+            "UT",
+            "WA"
+        ],
+        "included_nodes": [
+            "WECC_MT",
+            "WEC_BANC",
+            "WECC_ID",
+            "WECC_NNV",
+            "WECC_SNV",
+            "WECC_UT",
+            "WECC_PNW"
+        ],
+        "group": "V1G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CA": {
+                "rps_ratio": 0.5
+            },
+            "ID": {
+                "rps_ratio": 0.0
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "NV": {
+                "rps_ratio": 0.4
+            },
+            "OR": {
+                "rps_ratio": 0.12178
+            },
+            "UT": {
+                "rps_ratio": 0.0
+            },
+            "WA": {
+                "rps_ratio": 0.05
+            }
+        }
+    },
+    "11": {
+        "state": "NWPP",
+        "state_name": "nwpp",
+        "model_region": "NWPP",
+        "jurisdiction": "NWPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CA",
+            "ID",
+            "MT",
+            "NV",
+            "OR",
+            "UT",
+            "WA"
+        ],
+        "included_nodes": [
+            "WECC_MT",
+            "WEC_BANC",
+            "WECC_ID",
+            "WECC_NNV",
+            "WECC_SNV",
+            "WECC_UT",
+            "WECC_PNW"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CA": {
+                "rps_ratio": 0.6
+            },
+            "ID": {
+                "rps_ratio": 0.0
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "NV": {
+                "rps_ratio": 0.5
+            },
+            "OR": {
+                "rps_ratio": 0.22178
+            },
+            "UT": {
+                "rps_ratio": 0.0
+            },
+            "WA": {
+                "rps_ratio": 0.15
+            }
+        }
+    },
+    "12": {
+        "state": "NWPP",
+        "state_name": "nwpp",
+        "model_region": "NWPP",
+        "jurisdiction": "NWPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CA",
+            "ID",
+            "MT",
+            "NV",
+            "OR",
+            "UT",
+            "WA"
+        ],
+        "included_nodes": [
+            "WECC_MT",
+            "WEC_BANC",
+            "WECC_ID",
+            "WECC_NNV",
+            "WECC_SNV",
+            "WECC_UT",
+            "WECC_PNW"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CA": {
+                "rps_ratio": 0.7
+            },
+            "ID": {
+                "rps_ratio": 0.0
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "NV": {
+                "rps_ratio": 0.6
+            },
+            "OR": {
+                "rps_ratio": 0.32178
+            },
+            "UT": {
+                "rps_ratio": 0.0
+            },
+            "WA": {
+                "rps_ratio": 0.25
+            }
+        }
+    },
+    "13": {
+        "state": "NWPP",
+        "state_name": "nwpp",
+        "model_region": "NWPP",
+        "jurisdiction": "NWPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CA",
+            "ID",
+            "MT",
+            "NV",
+            "OR",
+            "UT",
+            "WA"
+        ],
+        "included_nodes": [
+            "WECC_MT",
+            "WEC_BANC",
+            "WECC_ID",
+            "WECC_NNV",
+            "WECC_SNV",
+            "WECC_UT",
+            "WECC_PNW"
+        ],
+        "group": "V2G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CA": {
+                "rps_ratio": 0.5
+            },
+            "ID": {
+                "rps_ratio": 0.0
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "NV": {
+                "rps_ratio": 0.4
+            },
+            "OR": {
+                "rps_ratio": 0.12178
+            },
+            "UT": {
+                "rps_ratio": 0.0
+            },
+            "WA": {
+                "rps_ratio": 0.05
+            }
+        }
+    },
+    "14": {
+        "state": "NWPP",
+        "state_name": "nwpp",
+        "model_region": "NWPP",
+        "jurisdiction": "NWPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CA",
+            "ID",
+            "MT",
+            "NV",
+            "OR",
+            "UT",
+            "WA"
+        ],
+        "included_nodes": [
+            "WECC_MT",
+            "WEC_BANC",
+            "WECC_ID",
+            "WECC_NNV",
+            "WECC_SNV",
+            "WECC_UT",
+            "WECC_PNW"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CA": {
+                "rps_ratio": 0.6
+            },
+            "ID": {
+                "rps_ratio": 0.0
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "NV": {
+                "rps_ratio": 0.5
+            },
+            "OR": {
+                "rps_ratio": 0.22178
+            },
+            "UT": {
+                "rps_ratio": 0.0
+            },
+            "WA": {
+                "rps_ratio": 0.15
+            }
+        }
+    },
+    "15": {
+        "state": "NWPP",
+        "state_name": "nwpp",
+        "model_region": "NWPP",
+        "jurisdiction": "NWPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CA",
+            "ID",
+            "MT",
+            "NV",
+            "OR",
+            "UT",
+            "WA"
+        ],
+        "included_nodes": [
+            "WECC_MT",
+            "WEC_BANC",
+            "WECC_ID",
+            "WECC_NNV",
+            "WECC_SNV",
+            "WECC_UT",
+            "WECC_PNW"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CA": {
+                "rps_ratio": 0.7
+            },
+            "ID": {
+                "rps_ratio": 0.0
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "NV": {
+                "rps_ratio": 0.6
+            },
+            "OR": {
+                "rps_ratio": 0.32178
+            },
+            "UT": {
+                "rps_ratio": 0.0
+            },
+            "WA": {
+                "rps_ratio": 0.25
+            }
+        }
+    }
+}

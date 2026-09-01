@@ -1,0 +1,1247 @@
+{
+    "1": {
+        "state": "SPP",
+        "state_name": "spp",
+        "model_region": "SPP",
+        "jurisdiction": "SPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "KS",
+            "LA",
+            "MO",
+            "MT",
+            "ND",
+            "NE",
+            "NM",
+            "OK",
+            "SD",
+            "TX",
+            "WY"
+        ],
+        "included_nodes": [
+            "SPP_NEBR",
+            "SPP_N",
+            "SPP_WEST",
+            "SPP_SPS",
+            "SPP_WAUE"
+        ],
+        "group": "Base only",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "KS": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.05
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "ND": {
+                "rps_ratio": 0.0
+            },
+            "NE": {
+                "rps_ratio": 0.0
+            },
+            "NM": {
+                "rps_ratio": 0.4
+            },
+            "OK": {
+                "rps_ratio": 0.0
+            },
+            "SD": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WY": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "2": {
+        "state": "SPP",
+        "state_name": "spp",
+        "model_region": "SPP",
+        "jurisdiction": "SPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "KS",
+            "LA",
+            "MO",
+            "MT",
+            "ND",
+            "NE",
+            "NM",
+            "OK",
+            "SD",
+            "TX",
+            "WY"
+        ],
+        "included_nodes": [
+            "SPP_NEBR",
+            "SPP_N",
+            "SPP_WEST",
+            "SPP_SPS",
+            "SPP_WAUE"
+        ],
+        "group": "Base only",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "KS": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.15
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "ND": {
+                "rps_ratio": 0.0
+            },
+            "NE": {
+                "rps_ratio": 0.0
+            },
+            "NM": {
+                "rps_ratio": 0.5
+            },
+            "OK": {
+                "rps_ratio": 0.0
+            },
+            "SD": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WY": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "3": {
+        "state": "SPP",
+        "state_name": "spp",
+        "model_region": "SPP",
+        "jurisdiction": "SPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "KS",
+            "LA",
+            "MO",
+            "MT",
+            "ND",
+            "NE",
+            "NM",
+            "OK",
+            "SD",
+            "TX",
+            "WY"
+        ],
+        "included_nodes": [
+            "SPP_NEBR",
+            "SPP_N",
+            "SPP_WEST",
+            "SPP_SPS",
+            "SPP_WAUE"
+        ],
+        "group": "Base only",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "KS": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.25
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "ND": {
+                "rps_ratio": 0.0
+            },
+            "NE": {
+                "rps_ratio": 0.0
+            },
+            "NM": {
+                "rps_ratio": 0.6
+            },
+            "OK": {
+                "rps_ratio": 0.0
+            },
+            "SD": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WY": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "4": {
+        "state": "SPP",
+        "state_name": "spp",
+        "model_region": "SPP",
+        "jurisdiction": "SPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "KS",
+            "LA",
+            "MO",
+            "MT",
+            "ND",
+            "NE",
+            "NM",
+            "OK",
+            "SD",
+            "TX",
+            "WY"
+        ],
+        "included_nodes": [
+            "SPP_NEBR",
+            "SPP_N",
+            "SPP_WEST",
+            "SPP_SPS",
+            "SPP_WAUE"
+        ],
+        "group": "V1G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "KS": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.05
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "ND": {
+                "rps_ratio": 0.0
+            },
+            "NE": {
+                "rps_ratio": 0.0
+            },
+            "NM": {
+                "rps_ratio": 0.4
+            },
+            "OK": {
+                "rps_ratio": 0.0
+            },
+            "SD": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WY": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "5": {
+        "state": "SPP",
+        "state_name": "spp",
+        "model_region": "SPP",
+        "jurisdiction": "SPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "KS",
+            "LA",
+            "MO",
+            "MT",
+            "ND",
+            "NE",
+            "NM",
+            "OK",
+            "SD",
+            "TX",
+            "WY"
+        ],
+        "included_nodes": [
+            "SPP_NEBR",
+            "SPP_N",
+            "SPP_WEST",
+            "SPP_SPS",
+            "SPP_WAUE"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "KS": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.15
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "ND": {
+                "rps_ratio": 0.0
+            },
+            "NE": {
+                "rps_ratio": 0.0
+            },
+            "NM": {
+                "rps_ratio": 0.5
+            },
+            "OK": {
+                "rps_ratio": 0.0
+            },
+            "SD": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WY": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "6": {
+        "state": "SPP",
+        "state_name": "spp",
+        "model_region": "SPP",
+        "jurisdiction": "SPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "KS",
+            "LA",
+            "MO",
+            "MT",
+            "ND",
+            "NE",
+            "NM",
+            "OK",
+            "SD",
+            "TX",
+            "WY"
+        ],
+        "included_nodes": [
+            "SPP_NEBR",
+            "SPP_N",
+            "SPP_WEST",
+            "SPP_SPS",
+            "SPP_WAUE"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "KS": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.25
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "ND": {
+                "rps_ratio": 0.0
+            },
+            "NE": {
+                "rps_ratio": 0.0
+            },
+            "NM": {
+                "rps_ratio": 0.6
+            },
+            "OK": {
+                "rps_ratio": 0.0
+            },
+            "SD": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WY": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "7": {
+        "state": "SPP",
+        "state_name": "spp",
+        "model_region": "SPP",
+        "jurisdiction": "SPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "KS",
+            "LA",
+            "MO",
+            "MT",
+            "ND",
+            "NE",
+            "NM",
+            "OK",
+            "SD",
+            "TX",
+            "WY"
+        ],
+        "included_nodes": [
+            "SPP_NEBR",
+            "SPP_N",
+            "SPP_WEST",
+            "SPP_SPS",
+            "SPP_WAUE"
+        ],
+        "group": "V2G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "KS": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.05
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "ND": {
+                "rps_ratio": 0.0
+            },
+            "NE": {
+                "rps_ratio": 0.0
+            },
+            "NM": {
+                "rps_ratio": 0.4
+            },
+            "OK": {
+                "rps_ratio": 0.0
+            },
+            "SD": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WY": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "8": {
+        "state": "SPP",
+        "state_name": "spp",
+        "model_region": "SPP",
+        "jurisdiction": "SPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "KS",
+            "LA",
+            "MO",
+            "MT",
+            "ND",
+            "NE",
+            "NM",
+            "OK",
+            "SD",
+            "TX",
+            "WY"
+        ],
+        "included_nodes": [
+            "SPP_NEBR",
+            "SPP_N",
+            "SPP_WEST",
+            "SPP_SPS",
+            "SPP_WAUE"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "KS": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.15
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "ND": {
+                "rps_ratio": 0.0
+            },
+            "NE": {
+                "rps_ratio": 0.0
+            },
+            "NM": {
+                "rps_ratio": 0.5
+            },
+            "OK": {
+                "rps_ratio": 0.0
+            },
+            "SD": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WY": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "9": {
+        "state": "SPP",
+        "state_name": "spp",
+        "model_region": "SPP",
+        "jurisdiction": "SPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "KS",
+            "LA",
+            "MO",
+            "MT",
+            "ND",
+            "NE",
+            "NM",
+            "OK",
+            "SD",
+            "TX",
+            "WY"
+        ],
+        "included_nodes": [
+            "SPP_NEBR",
+            "SPP_N",
+            "SPP_WEST",
+            "SPP_SPS",
+            "SPP_WAUE"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "KS": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.25
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "ND": {
+                "rps_ratio": 0.0
+            },
+            "NE": {
+                "rps_ratio": 0.0
+            },
+            "NM": {
+                "rps_ratio": 0.6
+            },
+            "OK": {
+                "rps_ratio": 0.0
+            },
+            "SD": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WY": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "10": {
+        "state": "SPP",
+        "state_name": "spp",
+        "model_region": "SPP",
+        "jurisdiction": "SPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "KS",
+            "LA",
+            "MO",
+            "MT",
+            "ND",
+            "NE",
+            "NM",
+            "OK",
+            "SD",
+            "TX",
+            "WY"
+        ],
+        "included_nodes": [
+            "SPP_NEBR",
+            "SPP_N",
+            "SPP_WEST",
+            "SPP_SPS",
+            "SPP_WAUE"
+        ],
+        "group": "V1G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "KS": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.05
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "ND": {
+                "rps_ratio": 0.0
+            },
+            "NE": {
+                "rps_ratio": 0.0
+            },
+            "NM": {
+                "rps_ratio": 0.4
+            },
+            "OK": {
+                "rps_ratio": 0.0
+            },
+            "SD": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WY": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "11": {
+        "state": "SPP",
+        "state_name": "spp",
+        "model_region": "SPP",
+        "jurisdiction": "SPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "KS",
+            "LA",
+            "MO",
+            "MT",
+            "ND",
+            "NE",
+            "NM",
+            "OK",
+            "SD",
+            "TX",
+            "WY"
+        ],
+        "included_nodes": [
+            "SPP_NEBR",
+            "SPP_N",
+            "SPP_WEST",
+            "SPP_SPS",
+            "SPP_WAUE"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "KS": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.15
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "ND": {
+                "rps_ratio": 0.0
+            },
+            "NE": {
+                "rps_ratio": 0.0
+            },
+            "NM": {
+                "rps_ratio": 0.5
+            },
+            "OK": {
+                "rps_ratio": 0.0
+            },
+            "SD": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WY": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "12": {
+        "state": "SPP",
+        "state_name": "spp",
+        "model_region": "SPP",
+        "jurisdiction": "SPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "KS",
+            "LA",
+            "MO",
+            "MT",
+            "ND",
+            "NE",
+            "NM",
+            "OK",
+            "SD",
+            "TX",
+            "WY"
+        ],
+        "included_nodes": [
+            "SPP_NEBR",
+            "SPP_N",
+            "SPP_WEST",
+            "SPP_SPS",
+            "SPP_WAUE"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "KS": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.25
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "ND": {
+                "rps_ratio": 0.0
+            },
+            "NE": {
+                "rps_ratio": 0.0
+            },
+            "NM": {
+                "rps_ratio": 0.6
+            },
+            "OK": {
+                "rps_ratio": 0.0
+            },
+            "SD": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WY": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "13": {
+        "state": "SPP",
+        "state_name": "spp",
+        "model_region": "SPP",
+        "jurisdiction": "SPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "KS",
+            "LA",
+            "MO",
+            "MT",
+            "ND",
+            "NE",
+            "NM",
+            "OK",
+            "SD",
+            "TX",
+            "WY"
+        ],
+        "included_nodes": [
+            "SPP_NEBR",
+            "SPP_N",
+            "SPP_WEST",
+            "SPP_SPS",
+            "SPP_WAUE"
+        ],
+        "group": "V2G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "KS": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.05
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "ND": {
+                "rps_ratio": 0.0
+            },
+            "NE": {
+                "rps_ratio": 0.0
+            },
+            "NM": {
+                "rps_ratio": 0.4
+            },
+            "OK": {
+                "rps_ratio": 0.0
+            },
+            "SD": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WY": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "14": {
+        "state": "SPP",
+        "state_name": "spp",
+        "model_region": "SPP",
+        "jurisdiction": "SPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "KS",
+            "LA",
+            "MO",
+            "MT",
+            "ND",
+            "NE",
+            "NM",
+            "OK",
+            "SD",
+            "TX",
+            "WY"
+        ],
+        "included_nodes": [
+            "SPP_NEBR",
+            "SPP_N",
+            "SPP_WEST",
+            "SPP_SPS",
+            "SPP_WAUE"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "KS": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.15
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "ND": {
+                "rps_ratio": 0.0
+            },
+            "NE": {
+                "rps_ratio": 0.0
+            },
+            "NM": {
+                "rps_ratio": 0.5
+            },
+            "OK": {
+                "rps_ratio": 0.0
+            },
+            "SD": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WY": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "15": {
+        "state": "SPP",
+        "state_name": "spp",
+        "model_region": "SPP",
+        "jurisdiction": "SPP",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "KS",
+            "LA",
+            "MO",
+            "MT",
+            "ND",
+            "NE",
+            "NM",
+            "OK",
+            "SD",
+            "TX",
+            "WY"
+        ],
+        "included_nodes": [
+            "SPP_NEBR",
+            "SPP_N",
+            "SPP_WEST",
+            "SPP_SPS",
+            "SPP_WAUE"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "KS": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.25
+            },
+            "MT": {
+                "rps_ratio": 0.0
+            },
+            "ND": {
+                "rps_ratio": 0.0
+            },
+            "NE": {
+                "rps_ratio": 0.0
+            },
+            "NM": {
+                "rps_ratio": 0.6
+            },
+            "OK": {
+                "rps_ratio": 0.0
+            },
+            "SD": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WY": {
+                "rps_ratio": 0.0
+            }
+        }
+    }
+}

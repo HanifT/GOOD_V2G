@@ -1,0 +1,1367 @@
+{
+    "1": {
+        "state": "MISO",
+        "state_name": "miso",
+        "model_region": "MISO",
+        "jurisdiction": "MISO",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "IA",
+            "IL",
+            "IN",
+            "KY",
+            "LA",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "TX",
+            "WI"
+        ],
+        "included_nodes": [
+            "MIS_IL",
+            "MIS_INKY",
+            "MIS_IA",
+            "MIS_MIDA",
+            "MIS_LMI",
+            "MIS_MO",
+            "MIS_WUMS",
+            "MIS_MNWI",
+            "MIS_WOTA",
+            "MIS_AMSO",
+            "MIS_AR",
+            "MIS_D_MS",
+            "MIS_LA"
+        ],
+        "group": "Base only",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "IA": {
+                "rps_ratio": 0.0
+            },
+            "IL": {
+                "rps_ratio": 0.3
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MI": {
+                "rps_ratio": 0.1
+            },
+            "MN": {
+                "rps_ratio": 0.15
+            },
+            "MO": {
+                "rps_ratio": 0.05
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WI": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "2": {
+        "state": "MISO",
+        "state_name": "miso",
+        "model_region": "MISO",
+        "jurisdiction": "MISO",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "IA",
+            "IL",
+            "IN",
+            "KY",
+            "LA",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "TX",
+            "WI"
+        ],
+        "included_nodes": [
+            "MIS_IL",
+            "MIS_INKY",
+            "MIS_IA",
+            "MIS_MIDA",
+            "MIS_LMI",
+            "MIS_MO",
+            "MIS_WUMS",
+            "MIS_MNWI",
+            "MIS_WOTA",
+            "MIS_AMSO",
+            "MIS_AR",
+            "MIS_D_MS",
+            "MIS_LA"
+        ],
+        "group": "Base only",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "IA": {
+                "rps_ratio": 0.005822
+            },
+            "IL": {
+                "rps_ratio": 0.4
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MI": {
+                "rps_ratio": 0.2
+            },
+            "MN": {
+                "rps_ratio": 0.25
+            },
+            "MO": {
+                "rps_ratio": 0.15
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WI": {
+                "rps_ratio": 0.1
+            }
+        }
+    },
+    "3": {
+        "state": "MISO",
+        "state_name": "miso",
+        "model_region": "MISO",
+        "jurisdiction": "MISO",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "IA",
+            "IL",
+            "IN",
+            "KY",
+            "LA",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "TX",
+            "WI"
+        ],
+        "included_nodes": [
+            "MIS_IL",
+            "MIS_INKY",
+            "MIS_IA",
+            "MIS_MIDA",
+            "MIS_LMI",
+            "MIS_MO",
+            "MIS_WUMS",
+            "MIS_MNWI",
+            "MIS_WOTA",
+            "MIS_AMSO",
+            "MIS_AR",
+            "MIS_D_MS",
+            "MIS_LA"
+        ],
+        "group": "Base only",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "IA": {
+                "rps_ratio": 0.105822
+            },
+            "IL": {
+                "rps_ratio": 0.5
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MI": {
+                "rps_ratio": 0.3
+            },
+            "MN": {
+                "rps_ratio": 0.35
+            },
+            "MO": {
+                "rps_ratio": 0.25
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WI": {
+                "rps_ratio": 0.2
+            }
+        }
+    },
+    "4": {
+        "state": "MISO",
+        "state_name": "miso",
+        "model_region": "MISO",
+        "jurisdiction": "MISO",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "IA",
+            "IL",
+            "IN",
+            "KY",
+            "LA",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "TX",
+            "WI"
+        ],
+        "included_nodes": [
+            "MIS_IL",
+            "MIS_INKY",
+            "MIS_IA",
+            "MIS_MIDA",
+            "MIS_LMI",
+            "MIS_MO",
+            "MIS_WUMS",
+            "MIS_MNWI",
+            "MIS_WOTA",
+            "MIS_AMSO",
+            "MIS_AR",
+            "MIS_D_MS",
+            "MIS_LA"
+        ],
+        "group": "V1G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "IA": {
+                "rps_ratio": 0.0
+            },
+            "IL": {
+                "rps_ratio": 0.3
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MI": {
+                "rps_ratio": 0.1
+            },
+            "MN": {
+                "rps_ratio": 0.15
+            },
+            "MO": {
+                "rps_ratio": 0.05
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WI": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "5": {
+        "state": "MISO",
+        "state_name": "miso",
+        "model_region": "MISO",
+        "jurisdiction": "MISO",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "IA",
+            "IL",
+            "IN",
+            "KY",
+            "LA",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "TX",
+            "WI"
+        ],
+        "included_nodes": [
+            "MIS_IL",
+            "MIS_INKY",
+            "MIS_IA",
+            "MIS_MIDA",
+            "MIS_LMI",
+            "MIS_MO",
+            "MIS_WUMS",
+            "MIS_MNWI",
+            "MIS_WOTA",
+            "MIS_AMSO",
+            "MIS_AR",
+            "MIS_D_MS",
+            "MIS_LA"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "IA": {
+                "rps_ratio": 0.005822
+            },
+            "IL": {
+                "rps_ratio": 0.4
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MI": {
+                "rps_ratio": 0.2
+            },
+            "MN": {
+                "rps_ratio": 0.25
+            },
+            "MO": {
+                "rps_ratio": 0.15
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WI": {
+                "rps_ratio": 0.1
+            }
+        }
+    },
+    "6": {
+        "state": "MISO",
+        "state_name": "miso",
+        "model_region": "MISO",
+        "jurisdiction": "MISO",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "IA",
+            "IL",
+            "IN",
+            "KY",
+            "LA",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "TX",
+            "WI"
+        ],
+        "included_nodes": [
+            "MIS_IL",
+            "MIS_INKY",
+            "MIS_IA",
+            "MIS_MIDA",
+            "MIS_LMI",
+            "MIS_MO",
+            "MIS_WUMS",
+            "MIS_MNWI",
+            "MIS_WOTA",
+            "MIS_AMSO",
+            "MIS_AR",
+            "MIS_D_MS",
+            "MIS_LA"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "IA": {
+                "rps_ratio": 0.105822
+            },
+            "IL": {
+                "rps_ratio": 0.5
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MI": {
+                "rps_ratio": 0.3
+            },
+            "MN": {
+                "rps_ratio": 0.35
+            },
+            "MO": {
+                "rps_ratio": 0.25
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WI": {
+                "rps_ratio": 0.2
+            }
+        }
+    },
+    "7": {
+        "state": "MISO",
+        "state_name": "miso",
+        "model_region": "MISO",
+        "jurisdiction": "MISO",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "IA",
+            "IL",
+            "IN",
+            "KY",
+            "LA",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "TX",
+            "WI"
+        ],
+        "included_nodes": [
+            "MIS_IL",
+            "MIS_INKY",
+            "MIS_IA",
+            "MIS_MIDA",
+            "MIS_LMI",
+            "MIS_MO",
+            "MIS_WUMS",
+            "MIS_MNWI",
+            "MIS_WOTA",
+            "MIS_AMSO",
+            "MIS_AR",
+            "MIS_D_MS",
+            "MIS_LA"
+        ],
+        "group": "V2G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "IA": {
+                "rps_ratio": 0.0
+            },
+            "IL": {
+                "rps_ratio": 0.3
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MI": {
+                "rps_ratio": 0.1
+            },
+            "MN": {
+                "rps_ratio": 0.15
+            },
+            "MO": {
+                "rps_ratio": 0.05
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WI": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "8": {
+        "state": "MISO",
+        "state_name": "miso",
+        "model_region": "MISO",
+        "jurisdiction": "MISO",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "IA",
+            "IL",
+            "IN",
+            "KY",
+            "LA",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "TX",
+            "WI"
+        ],
+        "included_nodes": [
+            "MIS_IL",
+            "MIS_INKY",
+            "MIS_IA",
+            "MIS_MIDA",
+            "MIS_LMI",
+            "MIS_MO",
+            "MIS_WUMS",
+            "MIS_MNWI",
+            "MIS_WOTA",
+            "MIS_AMSO",
+            "MIS_AR",
+            "MIS_D_MS",
+            "MIS_LA"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "IA": {
+                "rps_ratio": 0.005822
+            },
+            "IL": {
+                "rps_ratio": 0.4
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MI": {
+                "rps_ratio": 0.2
+            },
+            "MN": {
+                "rps_ratio": 0.25
+            },
+            "MO": {
+                "rps_ratio": 0.15
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WI": {
+                "rps_ratio": 0.1
+            }
+        }
+    },
+    "9": {
+        "state": "MISO",
+        "state_name": "miso",
+        "model_region": "MISO",
+        "jurisdiction": "MISO",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "IA",
+            "IL",
+            "IN",
+            "KY",
+            "LA",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "TX",
+            "WI"
+        ],
+        "included_nodes": [
+            "MIS_IL",
+            "MIS_INKY",
+            "MIS_IA",
+            "MIS_MIDA",
+            "MIS_LMI",
+            "MIS_MO",
+            "MIS_WUMS",
+            "MIS_MNWI",
+            "MIS_WOTA",
+            "MIS_AMSO",
+            "MIS_AR",
+            "MIS_D_MS",
+            "MIS_LA"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "IA": {
+                "rps_ratio": 0.105822
+            },
+            "IL": {
+                "rps_ratio": 0.5
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MI": {
+                "rps_ratio": 0.3
+            },
+            "MN": {
+                "rps_ratio": 0.35
+            },
+            "MO": {
+                "rps_ratio": 0.25
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WI": {
+                "rps_ratio": 0.2
+            }
+        }
+    },
+    "10": {
+        "state": "MISO",
+        "state_name": "miso",
+        "model_region": "MISO",
+        "jurisdiction": "MISO",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "IA",
+            "IL",
+            "IN",
+            "KY",
+            "LA",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "TX",
+            "WI"
+        ],
+        "included_nodes": [
+            "MIS_IL",
+            "MIS_INKY",
+            "MIS_IA",
+            "MIS_MIDA",
+            "MIS_LMI",
+            "MIS_MO",
+            "MIS_WUMS",
+            "MIS_MNWI",
+            "MIS_WOTA",
+            "MIS_AMSO",
+            "MIS_AR",
+            "MIS_D_MS",
+            "MIS_LA"
+        ],
+        "group": "V1G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "IA": {
+                "rps_ratio": 0.0
+            },
+            "IL": {
+                "rps_ratio": 0.3
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MI": {
+                "rps_ratio": 0.1
+            },
+            "MN": {
+                "rps_ratio": 0.15
+            },
+            "MO": {
+                "rps_ratio": 0.05
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WI": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "11": {
+        "state": "MISO",
+        "state_name": "miso",
+        "model_region": "MISO",
+        "jurisdiction": "MISO",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "IA",
+            "IL",
+            "IN",
+            "KY",
+            "LA",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "TX",
+            "WI"
+        ],
+        "included_nodes": [
+            "MIS_IL",
+            "MIS_INKY",
+            "MIS_IA",
+            "MIS_MIDA",
+            "MIS_LMI",
+            "MIS_MO",
+            "MIS_WUMS",
+            "MIS_MNWI",
+            "MIS_WOTA",
+            "MIS_AMSO",
+            "MIS_AR",
+            "MIS_D_MS",
+            "MIS_LA"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "IA": {
+                "rps_ratio": 0.005822
+            },
+            "IL": {
+                "rps_ratio": 0.4
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MI": {
+                "rps_ratio": 0.2
+            },
+            "MN": {
+                "rps_ratio": 0.25
+            },
+            "MO": {
+                "rps_ratio": 0.15
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WI": {
+                "rps_ratio": 0.1
+            }
+        }
+    },
+    "12": {
+        "state": "MISO",
+        "state_name": "miso",
+        "model_region": "MISO",
+        "jurisdiction": "MISO",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "IA",
+            "IL",
+            "IN",
+            "KY",
+            "LA",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "TX",
+            "WI"
+        ],
+        "included_nodes": [
+            "MIS_IL",
+            "MIS_INKY",
+            "MIS_IA",
+            "MIS_MIDA",
+            "MIS_LMI",
+            "MIS_MO",
+            "MIS_WUMS",
+            "MIS_MNWI",
+            "MIS_WOTA",
+            "MIS_AMSO",
+            "MIS_AR",
+            "MIS_D_MS",
+            "MIS_LA"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "IA": {
+                "rps_ratio": 0.105822
+            },
+            "IL": {
+                "rps_ratio": 0.5
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MI": {
+                "rps_ratio": 0.3
+            },
+            "MN": {
+                "rps_ratio": 0.35
+            },
+            "MO": {
+                "rps_ratio": 0.25
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WI": {
+                "rps_ratio": 0.2
+            }
+        }
+    },
+    "13": {
+        "state": "MISO",
+        "state_name": "miso",
+        "model_region": "MISO",
+        "jurisdiction": "MISO",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "IA",
+            "IL",
+            "IN",
+            "KY",
+            "LA",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "TX",
+            "WI"
+        ],
+        "included_nodes": [
+            "MIS_IL",
+            "MIS_INKY",
+            "MIS_IA",
+            "MIS_MIDA",
+            "MIS_LMI",
+            "MIS_MO",
+            "MIS_WUMS",
+            "MIS_MNWI",
+            "MIS_WOTA",
+            "MIS_AMSO",
+            "MIS_AR",
+            "MIS_D_MS",
+            "MIS_LA"
+        ],
+        "group": "V2G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "IA": {
+                "rps_ratio": 0.0
+            },
+            "IL": {
+                "rps_ratio": 0.3
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MI": {
+                "rps_ratio": 0.1
+            },
+            "MN": {
+                "rps_ratio": 0.15
+            },
+            "MO": {
+                "rps_ratio": 0.05
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WI": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "14": {
+        "state": "MISO",
+        "state_name": "miso",
+        "model_region": "MISO",
+        "jurisdiction": "MISO",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "IA",
+            "IL",
+            "IN",
+            "KY",
+            "LA",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "TX",
+            "WI"
+        ],
+        "included_nodes": [
+            "MIS_IL",
+            "MIS_INKY",
+            "MIS_IA",
+            "MIS_MIDA",
+            "MIS_LMI",
+            "MIS_MO",
+            "MIS_WUMS",
+            "MIS_MNWI",
+            "MIS_WOTA",
+            "MIS_AMSO",
+            "MIS_AR",
+            "MIS_D_MS",
+            "MIS_LA"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "IA": {
+                "rps_ratio": 0.005822
+            },
+            "IL": {
+                "rps_ratio": 0.4
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MI": {
+                "rps_ratio": 0.2
+            },
+            "MN": {
+                "rps_ratio": 0.25
+            },
+            "MO": {
+                "rps_ratio": 0.15
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WI": {
+                "rps_ratio": 0.1
+            }
+        }
+    },
+    "15": {
+        "state": "MISO",
+        "state_name": "miso",
+        "model_region": "MISO",
+        "jurisdiction": "MISO",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AR",
+            "IA",
+            "IL",
+            "IN",
+            "KY",
+            "LA",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "TX",
+            "WI"
+        ],
+        "included_nodes": [
+            "MIS_IL",
+            "MIS_INKY",
+            "MIS_IA",
+            "MIS_MIDA",
+            "MIS_LMI",
+            "MIS_MO",
+            "MIS_WUMS",
+            "MIS_MNWI",
+            "MIS_WOTA",
+            "MIS_AMSO",
+            "MIS_AR",
+            "MIS_D_MS",
+            "MIS_LA"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AR": {
+                "rps_ratio": 0.0
+            },
+            "IA": {
+                "rps_ratio": 0.105822
+            },
+            "IL": {
+                "rps_ratio": 0.5
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "LA": {
+                "rps_ratio": 0.0
+            },
+            "MI": {
+                "rps_ratio": 0.3
+            },
+            "MN": {
+                "rps_ratio": 0.35
+            },
+            "MO": {
+                "rps_ratio": 0.25
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "TX": {
+                "rps_ratio": 0.0
+            },
+            "WI": {
+                "rps_ratio": 0.2
+            }
+        }
+    }
+}

@@ -1,0 +1,857 @@
+{
+    "1": {
+        "state": "ISO-NE",
+        "state_name": "iso_ne",
+        "model_region": "ISO-NE",
+        "jurisdiction": "ISO-NE",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CT",
+            "MA",
+            "ME",
+            "NH",
+            "RI",
+            "VT"
+        ],
+        "included_nodes": [
+            "NENG_CT",
+            "NENGREST",
+            "NENG_ME"
+        ],
+        "group": "Base only",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CT": {
+                "rps_ratio": 0.23
+            },
+            "MA": {
+                "rps_ratio": 0.37
+            },
+            "ME": {
+                "rps_ratio": 0.7
+            },
+            "NH": {
+                "rps_ratio": 0.13
+            },
+            "RI": {
+                "rps_ratio": 0.62
+            },
+            "VT": {
+                "rps_ratio": 0.7
+            }
+        }
+    },
+    "2": {
+        "state": "ISO-NE",
+        "state_name": "iso_ne",
+        "model_region": "ISO-NE",
+        "jurisdiction": "ISO-NE",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CT",
+            "MA",
+            "ME",
+            "NH",
+            "RI",
+            "VT"
+        ],
+        "included_nodes": [
+            "NENG_CT",
+            "NENGREST",
+            "NENG_ME"
+        ],
+        "group": "Base only",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CT": {
+                "rps_ratio": 0.33
+            },
+            "MA": {
+                "rps_ratio": 0.47
+            },
+            "ME": {
+                "rps_ratio": 0.8
+            },
+            "NH": {
+                "rps_ratio": 0.23
+            },
+            "RI": {
+                "rps_ratio": 0.72
+            },
+            "VT": {
+                "rps_ratio": 0.8
+            }
+        }
+    },
+    "3": {
+        "state": "ISO-NE",
+        "state_name": "iso_ne",
+        "model_region": "ISO-NE",
+        "jurisdiction": "ISO-NE",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CT",
+            "MA",
+            "ME",
+            "NH",
+            "RI",
+            "VT"
+        ],
+        "included_nodes": [
+            "NENG_CT",
+            "NENGREST",
+            "NENG_ME"
+        ],
+        "group": "Base only",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CT": {
+                "rps_ratio": 0.43
+            },
+            "MA": {
+                "rps_ratio": 0.57
+            },
+            "ME": {
+                "rps_ratio": 0.9
+            },
+            "NH": {
+                "rps_ratio": 0.33
+            },
+            "RI": {
+                "rps_ratio": 0.82
+            },
+            "VT": {
+                "rps_ratio": 0.9
+            }
+        }
+    },
+    "4": {
+        "state": "ISO-NE",
+        "state_name": "iso_ne",
+        "model_region": "ISO-NE",
+        "jurisdiction": "ISO-NE",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CT",
+            "MA",
+            "ME",
+            "NH",
+            "RI",
+            "VT"
+        ],
+        "included_nodes": [
+            "NENG_CT",
+            "NENGREST",
+            "NENG_ME"
+        ],
+        "group": "V1G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CT": {
+                "rps_ratio": 0.23
+            },
+            "MA": {
+                "rps_ratio": 0.37
+            },
+            "ME": {
+                "rps_ratio": 0.7
+            },
+            "NH": {
+                "rps_ratio": 0.13
+            },
+            "RI": {
+                "rps_ratio": 0.62
+            },
+            "VT": {
+                "rps_ratio": 0.7
+            }
+        }
+    },
+    "5": {
+        "state": "ISO-NE",
+        "state_name": "iso_ne",
+        "model_region": "ISO-NE",
+        "jurisdiction": "ISO-NE",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CT",
+            "MA",
+            "ME",
+            "NH",
+            "RI",
+            "VT"
+        ],
+        "included_nodes": [
+            "NENG_CT",
+            "NENGREST",
+            "NENG_ME"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CT": {
+                "rps_ratio": 0.33
+            },
+            "MA": {
+                "rps_ratio": 0.47
+            },
+            "ME": {
+                "rps_ratio": 0.8
+            },
+            "NH": {
+                "rps_ratio": 0.23
+            },
+            "RI": {
+                "rps_ratio": 0.72
+            },
+            "VT": {
+                "rps_ratio": 0.8
+            }
+        }
+    },
+    "6": {
+        "state": "ISO-NE",
+        "state_name": "iso_ne",
+        "model_region": "ISO-NE",
+        "jurisdiction": "ISO-NE",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CT",
+            "MA",
+            "ME",
+            "NH",
+            "RI",
+            "VT"
+        ],
+        "included_nodes": [
+            "NENG_CT",
+            "NENGREST",
+            "NENG_ME"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CT": {
+                "rps_ratio": 0.43
+            },
+            "MA": {
+                "rps_ratio": 0.57
+            },
+            "ME": {
+                "rps_ratio": 0.9
+            },
+            "NH": {
+                "rps_ratio": 0.33
+            },
+            "RI": {
+                "rps_ratio": 0.82
+            },
+            "VT": {
+                "rps_ratio": 0.9
+            }
+        }
+    },
+    "7": {
+        "state": "ISO-NE",
+        "state_name": "iso_ne",
+        "model_region": "ISO-NE",
+        "jurisdiction": "ISO-NE",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CT",
+            "MA",
+            "ME",
+            "NH",
+            "RI",
+            "VT"
+        ],
+        "included_nodes": [
+            "NENG_CT",
+            "NENGREST",
+            "NENG_ME"
+        ],
+        "group": "V2G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CT": {
+                "rps_ratio": 0.23
+            },
+            "MA": {
+                "rps_ratio": 0.37
+            },
+            "ME": {
+                "rps_ratio": 0.7
+            },
+            "NH": {
+                "rps_ratio": 0.13
+            },
+            "RI": {
+                "rps_ratio": 0.62
+            },
+            "VT": {
+                "rps_ratio": 0.7
+            }
+        }
+    },
+    "8": {
+        "state": "ISO-NE",
+        "state_name": "iso_ne",
+        "model_region": "ISO-NE",
+        "jurisdiction": "ISO-NE",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CT",
+            "MA",
+            "ME",
+            "NH",
+            "RI",
+            "VT"
+        ],
+        "included_nodes": [
+            "NENG_CT",
+            "NENGREST",
+            "NENG_ME"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CT": {
+                "rps_ratio": 0.33
+            },
+            "MA": {
+                "rps_ratio": 0.47
+            },
+            "ME": {
+                "rps_ratio": 0.8
+            },
+            "NH": {
+                "rps_ratio": 0.23
+            },
+            "RI": {
+                "rps_ratio": 0.72
+            },
+            "VT": {
+                "rps_ratio": 0.8
+            }
+        }
+    },
+    "9": {
+        "state": "ISO-NE",
+        "state_name": "iso_ne",
+        "model_region": "ISO-NE",
+        "jurisdiction": "ISO-NE",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CT",
+            "MA",
+            "ME",
+            "NH",
+            "RI",
+            "VT"
+        ],
+        "included_nodes": [
+            "NENG_CT",
+            "NENGREST",
+            "NENG_ME"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CT": {
+                "rps_ratio": 0.43
+            },
+            "MA": {
+                "rps_ratio": 0.57
+            },
+            "ME": {
+                "rps_ratio": 0.9
+            },
+            "NH": {
+                "rps_ratio": 0.33
+            },
+            "RI": {
+                "rps_ratio": 0.82
+            },
+            "VT": {
+                "rps_ratio": 0.9
+            }
+        }
+    },
+    "10": {
+        "state": "ISO-NE",
+        "state_name": "iso_ne",
+        "model_region": "ISO-NE",
+        "jurisdiction": "ISO-NE",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CT",
+            "MA",
+            "ME",
+            "NH",
+            "RI",
+            "VT"
+        ],
+        "included_nodes": [
+            "NENG_CT",
+            "NENGREST",
+            "NENG_ME"
+        ],
+        "group": "V1G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CT": {
+                "rps_ratio": 0.23
+            },
+            "MA": {
+                "rps_ratio": 0.37
+            },
+            "ME": {
+                "rps_ratio": 0.7
+            },
+            "NH": {
+                "rps_ratio": 0.13
+            },
+            "RI": {
+                "rps_ratio": 0.62
+            },
+            "VT": {
+                "rps_ratio": 0.7
+            }
+        }
+    },
+    "11": {
+        "state": "ISO-NE",
+        "state_name": "iso_ne",
+        "model_region": "ISO-NE",
+        "jurisdiction": "ISO-NE",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CT",
+            "MA",
+            "ME",
+            "NH",
+            "RI",
+            "VT"
+        ],
+        "included_nodes": [
+            "NENG_CT",
+            "NENGREST",
+            "NENG_ME"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CT": {
+                "rps_ratio": 0.33
+            },
+            "MA": {
+                "rps_ratio": 0.47
+            },
+            "ME": {
+                "rps_ratio": 0.8
+            },
+            "NH": {
+                "rps_ratio": 0.23
+            },
+            "RI": {
+                "rps_ratio": 0.72
+            },
+            "VT": {
+                "rps_ratio": 0.8
+            }
+        }
+    },
+    "12": {
+        "state": "ISO-NE",
+        "state_name": "iso_ne",
+        "model_region": "ISO-NE",
+        "jurisdiction": "ISO-NE",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CT",
+            "MA",
+            "ME",
+            "NH",
+            "RI",
+            "VT"
+        ],
+        "included_nodes": [
+            "NENG_CT",
+            "NENGREST",
+            "NENG_ME"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CT": {
+                "rps_ratio": 0.43
+            },
+            "MA": {
+                "rps_ratio": 0.57
+            },
+            "ME": {
+                "rps_ratio": 0.9
+            },
+            "NH": {
+                "rps_ratio": 0.33
+            },
+            "RI": {
+                "rps_ratio": 0.82
+            },
+            "VT": {
+                "rps_ratio": 0.9
+            }
+        }
+    },
+    "13": {
+        "state": "ISO-NE",
+        "state_name": "iso_ne",
+        "model_region": "ISO-NE",
+        "jurisdiction": "ISO-NE",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CT",
+            "MA",
+            "ME",
+            "NH",
+            "RI",
+            "VT"
+        ],
+        "included_nodes": [
+            "NENG_CT",
+            "NENGREST",
+            "NENG_ME"
+        ],
+        "group": "V2G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CT": {
+                "rps_ratio": 0.23
+            },
+            "MA": {
+                "rps_ratio": 0.37
+            },
+            "ME": {
+                "rps_ratio": 0.7
+            },
+            "NH": {
+                "rps_ratio": 0.13
+            },
+            "RI": {
+                "rps_ratio": 0.62
+            },
+            "VT": {
+                "rps_ratio": 0.7
+            }
+        }
+    },
+    "14": {
+        "state": "ISO-NE",
+        "state_name": "iso_ne",
+        "model_region": "ISO-NE",
+        "jurisdiction": "ISO-NE",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CT",
+            "MA",
+            "ME",
+            "NH",
+            "RI",
+            "VT"
+        ],
+        "included_nodes": [
+            "NENG_CT",
+            "NENGREST",
+            "NENG_ME"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CT": {
+                "rps_ratio": 0.33
+            },
+            "MA": {
+                "rps_ratio": 0.47
+            },
+            "ME": {
+                "rps_ratio": 0.8
+            },
+            "NH": {
+                "rps_ratio": 0.23
+            },
+            "RI": {
+                "rps_ratio": 0.72
+            },
+            "VT": {
+                "rps_ratio": 0.8
+            }
+        }
+    },
+    "15": {
+        "state": "ISO-NE",
+        "state_name": "iso_ne",
+        "model_region": "ISO-NE",
+        "jurisdiction": "ISO-NE",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "CT",
+            "MA",
+            "ME",
+            "NH",
+            "RI",
+            "VT"
+        ],
+        "included_nodes": [
+            "NENG_CT",
+            "NENGREST",
+            "NENG_ME"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "CT": {
+                "rps_ratio": 0.43
+            },
+            "MA": {
+                "rps_ratio": 0.57
+            },
+            "ME": {
+                "rps_ratio": 0.9
+            },
+            "NH": {
+                "rps_ratio": 0.33
+            },
+            "RI": {
+                "rps_ratio": 0.82
+            },
+            "VT": {
+                "rps_ratio": 0.9
+            }
+        }
+    }
+}

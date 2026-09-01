@@ -1,0 +1,1427 @@
+{
+    "1": {
+        "state": "PJM",
+        "state_name": "pjm",
+        "model_region": "PJM",
+        "jurisdiction": "PJM",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "DE",
+            "IL",
+            "IN",
+            "KY",
+            "MD",
+            "MI",
+            "NJ",
+            "NC",
+            "OH",
+            "PA",
+            "TN",
+            "VA",
+            "WV",
+            "DC"
+        ],
+        "included_nodes": [
+            "PJM_AP",
+            "PJM_ATSI",
+            "PJM_COMD",
+            "PJM_Dom",
+            "PJM_EMAC",
+            "PJM_PENE",
+            "PJM_SMAC",
+            "PJM_WMAC",
+            "PJM_West"
+        ],
+        "group": "Base only",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "DE": {
+                "rps_ratio": 0.18
+            },
+            "IL": {
+                "rps_ratio": 0.3
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MD": {
+                "rps_ratio": 0.4
+            },
+            "MI": {
+                "rps_ratio": 0.1
+            },
+            "NJ": {
+                "rps_ratio": 0.3
+            },
+            "NC": {
+                "rps_ratio": 0.025
+            },
+            "OH": {
+                "rps_ratio": 0.0
+            },
+            "PA": {
+                "rps_ratio": 0.0
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.21
+            },
+            "WV": {
+                "rps_ratio": 0.0
+            },
+            "DC": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "2": {
+        "state": "PJM",
+        "state_name": "pjm",
+        "model_region": "PJM",
+        "jurisdiction": "PJM",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "DE",
+            "IL",
+            "IN",
+            "KY",
+            "MD",
+            "MI",
+            "NJ",
+            "NC",
+            "OH",
+            "PA",
+            "TN",
+            "VA",
+            "WV",
+            "DC"
+        ],
+        "included_nodes": [
+            "PJM_AP",
+            "PJM_ATSI",
+            "PJM_COMD",
+            "PJM_Dom",
+            "PJM_EMAC",
+            "PJM_PENE",
+            "PJM_SMAC",
+            "PJM_WMAC",
+            "PJM_West"
+        ],
+        "group": "Base only",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "DE": {
+                "rps_ratio": 0.28
+            },
+            "IL": {
+                "rps_ratio": 0.4
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MD": {
+                "rps_ratio": 0.5
+            },
+            "MI": {
+                "rps_ratio": 0.2
+            },
+            "NJ": {
+                "rps_ratio": 0.4
+            },
+            "NC": {
+                "rps_ratio": 0.125
+            },
+            "OH": {
+                "rps_ratio": 0.085
+            },
+            "PA": {
+                "rps_ratio": 0.08
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.31
+            },
+            "WV": {
+                "rps_ratio": 0.0
+            },
+            "DC": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "3": {
+        "state": "PJM",
+        "state_name": "pjm",
+        "model_region": "PJM",
+        "jurisdiction": "PJM",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "DE",
+            "IL",
+            "IN",
+            "KY",
+            "MD",
+            "MI",
+            "NJ",
+            "NC",
+            "OH",
+            "PA",
+            "TN",
+            "VA",
+            "WV",
+            "DC"
+        ],
+        "included_nodes": [
+            "PJM_AP",
+            "PJM_ATSI",
+            "PJM_COMD",
+            "PJM_Dom",
+            "PJM_EMAC",
+            "PJM_PENE",
+            "PJM_SMAC",
+            "PJM_WMAC",
+            "PJM_West"
+        ],
+        "group": "Base only",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "DE": {
+                "rps_ratio": 0.38
+            },
+            "IL": {
+                "rps_ratio": 0.5
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MD": {
+                "rps_ratio": 0.6
+            },
+            "MI": {
+                "rps_ratio": 0.3
+            },
+            "NJ": {
+                "rps_ratio": 0.5
+            },
+            "NC": {
+                "rps_ratio": 0.225
+            },
+            "OH": {
+                "rps_ratio": 0.185
+            },
+            "PA": {
+                "rps_ratio": 0.18
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.41
+            },
+            "WV": {
+                "rps_ratio": 0.0
+            },
+            "DC": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "4": {
+        "state": "PJM",
+        "state_name": "pjm",
+        "model_region": "PJM",
+        "jurisdiction": "PJM",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "DE",
+            "IL",
+            "IN",
+            "KY",
+            "MD",
+            "MI",
+            "NJ",
+            "NC",
+            "OH",
+            "PA",
+            "TN",
+            "VA",
+            "WV",
+            "DC"
+        ],
+        "included_nodes": [
+            "PJM_AP",
+            "PJM_ATSI",
+            "PJM_COMD",
+            "PJM_Dom",
+            "PJM_EMAC",
+            "PJM_PENE",
+            "PJM_SMAC",
+            "PJM_WMAC",
+            "PJM_West"
+        ],
+        "group": "V1G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "DE": {
+                "rps_ratio": 0.18
+            },
+            "IL": {
+                "rps_ratio": 0.3
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MD": {
+                "rps_ratio": 0.4
+            },
+            "MI": {
+                "rps_ratio": 0.1
+            },
+            "NJ": {
+                "rps_ratio": 0.3
+            },
+            "NC": {
+                "rps_ratio": 0.025
+            },
+            "OH": {
+                "rps_ratio": 0.0
+            },
+            "PA": {
+                "rps_ratio": 0.0
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.21
+            },
+            "WV": {
+                "rps_ratio": 0.0
+            },
+            "DC": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "5": {
+        "state": "PJM",
+        "state_name": "pjm",
+        "model_region": "PJM",
+        "jurisdiction": "PJM",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "DE",
+            "IL",
+            "IN",
+            "KY",
+            "MD",
+            "MI",
+            "NJ",
+            "NC",
+            "OH",
+            "PA",
+            "TN",
+            "VA",
+            "WV",
+            "DC"
+        ],
+        "included_nodes": [
+            "PJM_AP",
+            "PJM_ATSI",
+            "PJM_COMD",
+            "PJM_Dom",
+            "PJM_EMAC",
+            "PJM_PENE",
+            "PJM_SMAC",
+            "PJM_WMAC",
+            "PJM_West"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "DE": {
+                "rps_ratio": 0.28
+            },
+            "IL": {
+                "rps_ratio": 0.4
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MD": {
+                "rps_ratio": 0.5
+            },
+            "MI": {
+                "rps_ratio": 0.2
+            },
+            "NJ": {
+                "rps_ratio": 0.4
+            },
+            "NC": {
+                "rps_ratio": 0.125
+            },
+            "OH": {
+                "rps_ratio": 0.085
+            },
+            "PA": {
+                "rps_ratio": 0.08
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.31
+            },
+            "WV": {
+                "rps_ratio": 0.0
+            },
+            "DC": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "6": {
+        "state": "PJM",
+        "state_name": "pjm",
+        "model_region": "PJM",
+        "jurisdiction": "PJM",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "DE",
+            "IL",
+            "IN",
+            "KY",
+            "MD",
+            "MI",
+            "NJ",
+            "NC",
+            "OH",
+            "PA",
+            "TN",
+            "VA",
+            "WV",
+            "DC"
+        ],
+        "included_nodes": [
+            "PJM_AP",
+            "PJM_ATSI",
+            "PJM_COMD",
+            "PJM_Dom",
+            "PJM_EMAC",
+            "PJM_PENE",
+            "PJM_SMAC",
+            "PJM_WMAC",
+            "PJM_West"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "DE": {
+                "rps_ratio": 0.38
+            },
+            "IL": {
+                "rps_ratio": 0.5
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MD": {
+                "rps_ratio": 0.6
+            },
+            "MI": {
+                "rps_ratio": 0.3
+            },
+            "NJ": {
+                "rps_ratio": 0.5
+            },
+            "NC": {
+                "rps_ratio": 0.225
+            },
+            "OH": {
+                "rps_ratio": 0.185
+            },
+            "PA": {
+                "rps_ratio": 0.18
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.41
+            },
+            "WV": {
+                "rps_ratio": 0.0
+            },
+            "DC": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "7": {
+        "state": "PJM",
+        "state_name": "pjm",
+        "model_region": "PJM",
+        "jurisdiction": "PJM",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "DE",
+            "IL",
+            "IN",
+            "KY",
+            "MD",
+            "MI",
+            "NJ",
+            "NC",
+            "OH",
+            "PA",
+            "TN",
+            "VA",
+            "WV",
+            "DC"
+        ],
+        "included_nodes": [
+            "PJM_AP",
+            "PJM_ATSI",
+            "PJM_COMD",
+            "PJM_Dom",
+            "PJM_EMAC",
+            "PJM_PENE",
+            "PJM_SMAC",
+            "PJM_WMAC",
+            "PJM_West"
+        ],
+        "group": "V2G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "DE": {
+                "rps_ratio": 0.18
+            },
+            "IL": {
+                "rps_ratio": 0.3
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MD": {
+                "rps_ratio": 0.4
+            },
+            "MI": {
+                "rps_ratio": 0.1
+            },
+            "NJ": {
+                "rps_ratio": 0.3
+            },
+            "NC": {
+                "rps_ratio": 0.025
+            },
+            "OH": {
+                "rps_ratio": 0.0
+            },
+            "PA": {
+                "rps_ratio": 0.0
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.21
+            },
+            "WV": {
+                "rps_ratio": 0.0
+            },
+            "DC": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "8": {
+        "state": "PJM",
+        "state_name": "pjm",
+        "model_region": "PJM",
+        "jurisdiction": "PJM",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "DE",
+            "IL",
+            "IN",
+            "KY",
+            "MD",
+            "MI",
+            "NJ",
+            "NC",
+            "OH",
+            "PA",
+            "TN",
+            "VA",
+            "WV",
+            "DC"
+        ],
+        "included_nodes": [
+            "PJM_AP",
+            "PJM_ATSI",
+            "PJM_COMD",
+            "PJM_Dom",
+            "PJM_EMAC",
+            "PJM_PENE",
+            "PJM_SMAC",
+            "PJM_WMAC",
+            "PJM_West"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "DE": {
+                "rps_ratio": 0.28
+            },
+            "IL": {
+                "rps_ratio": 0.4
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MD": {
+                "rps_ratio": 0.5
+            },
+            "MI": {
+                "rps_ratio": 0.2
+            },
+            "NJ": {
+                "rps_ratio": 0.4
+            },
+            "NC": {
+                "rps_ratio": 0.125
+            },
+            "OH": {
+                "rps_ratio": 0.085
+            },
+            "PA": {
+                "rps_ratio": 0.08
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.31
+            },
+            "WV": {
+                "rps_ratio": 0.0
+            },
+            "DC": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "9": {
+        "state": "PJM",
+        "state_name": "pjm",
+        "model_region": "PJM",
+        "jurisdiction": "PJM",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "DE",
+            "IL",
+            "IN",
+            "KY",
+            "MD",
+            "MI",
+            "NJ",
+            "NC",
+            "OH",
+            "PA",
+            "TN",
+            "VA",
+            "WV",
+            "DC"
+        ],
+        "included_nodes": [
+            "PJM_AP",
+            "PJM_ATSI",
+            "PJM_COMD",
+            "PJM_Dom",
+            "PJM_EMAC",
+            "PJM_PENE",
+            "PJM_SMAC",
+            "PJM_WMAC",
+            "PJM_West"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "DE": {
+                "rps_ratio": 0.38
+            },
+            "IL": {
+                "rps_ratio": 0.5
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MD": {
+                "rps_ratio": 0.6
+            },
+            "MI": {
+                "rps_ratio": 0.3
+            },
+            "NJ": {
+                "rps_ratio": 0.5
+            },
+            "NC": {
+                "rps_ratio": 0.225
+            },
+            "OH": {
+                "rps_ratio": 0.185
+            },
+            "PA": {
+                "rps_ratio": 0.18
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.41
+            },
+            "WV": {
+                "rps_ratio": 0.0
+            },
+            "DC": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "10": {
+        "state": "PJM",
+        "state_name": "pjm",
+        "model_region": "PJM",
+        "jurisdiction": "PJM",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "DE",
+            "IL",
+            "IN",
+            "KY",
+            "MD",
+            "MI",
+            "NJ",
+            "NC",
+            "OH",
+            "PA",
+            "TN",
+            "VA",
+            "WV",
+            "DC"
+        ],
+        "included_nodes": [
+            "PJM_AP",
+            "PJM_ATSI",
+            "PJM_COMD",
+            "PJM_Dom",
+            "PJM_EMAC",
+            "PJM_PENE",
+            "PJM_SMAC",
+            "PJM_WMAC",
+            "PJM_West"
+        ],
+        "group": "V1G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "DE": {
+                "rps_ratio": 0.18
+            },
+            "IL": {
+                "rps_ratio": 0.3
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MD": {
+                "rps_ratio": 0.4
+            },
+            "MI": {
+                "rps_ratio": 0.1
+            },
+            "NJ": {
+                "rps_ratio": 0.3
+            },
+            "NC": {
+                "rps_ratio": 0.025
+            },
+            "OH": {
+                "rps_ratio": 0.0
+            },
+            "PA": {
+                "rps_ratio": 0.0
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.21
+            },
+            "WV": {
+                "rps_ratio": 0.0
+            },
+            "DC": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "11": {
+        "state": "PJM",
+        "state_name": "pjm",
+        "model_region": "PJM",
+        "jurisdiction": "PJM",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "DE",
+            "IL",
+            "IN",
+            "KY",
+            "MD",
+            "MI",
+            "NJ",
+            "NC",
+            "OH",
+            "PA",
+            "TN",
+            "VA",
+            "WV",
+            "DC"
+        ],
+        "included_nodes": [
+            "PJM_AP",
+            "PJM_ATSI",
+            "PJM_COMD",
+            "PJM_Dom",
+            "PJM_EMAC",
+            "PJM_PENE",
+            "PJM_SMAC",
+            "PJM_WMAC",
+            "PJM_West"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "DE": {
+                "rps_ratio": 0.28
+            },
+            "IL": {
+                "rps_ratio": 0.4
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MD": {
+                "rps_ratio": 0.5
+            },
+            "MI": {
+                "rps_ratio": 0.2
+            },
+            "NJ": {
+                "rps_ratio": 0.4
+            },
+            "NC": {
+                "rps_ratio": 0.125
+            },
+            "OH": {
+                "rps_ratio": 0.085
+            },
+            "PA": {
+                "rps_ratio": 0.08
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.31
+            },
+            "WV": {
+                "rps_ratio": 0.0
+            },
+            "DC": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "12": {
+        "state": "PJM",
+        "state_name": "pjm",
+        "model_region": "PJM",
+        "jurisdiction": "PJM",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "DE",
+            "IL",
+            "IN",
+            "KY",
+            "MD",
+            "MI",
+            "NJ",
+            "NC",
+            "OH",
+            "PA",
+            "TN",
+            "VA",
+            "WV",
+            "DC"
+        ],
+        "included_nodes": [
+            "PJM_AP",
+            "PJM_ATSI",
+            "PJM_COMD",
+            "PJM_Dom",
+            "PJM_EMAC",
+            "PJM_PENE",
+            "PJM_SMAC",
+            "PJM_WMAC",
+            "PJM_West"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "DE": {
+                "rps_ratio": 0.38
+            },
+            "IL": {
+                "rps_ratio": 0.5
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MD": {
+                "rps_ratio": 0.6
+            },
+            "MI": {
+                "rps_ratio": 0.3
+            },
+            "NJ": {
+                "rps_ratio": 0.5
+            },
+            "NC": {
+                "rps_ratio": 0.225
+            },
+            "OH": {
+                "rps_ratio": 0.185
+            },
+            "PA": {
+                "rps_ratio": 0.18
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.41
+            },
+            "WV": {
+                "rps_ratio": 0.0
+            },
+            "DC": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "13": {
+        "state": "PJM",
+        "state_name": "pjm",
+        "model_region": "PJM",
+        "jurisdiction": "PJM",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "DE",
+            "IL",
+            "IN",
+            "KY",
+            "MD",
+            "MI",
+            "NJ",
+            "NC",
+            "OH",
+            "PA",
+            "TN",
+            "VA",
+            "WV",
+            "DC"
+        ],
+        "included_nodes": [
+            "PJM_AP",
+            "PJM_ATSI",
+            "PJM_COMD",
+            "PJM_Dom",
+            "PJM_EMAC",
+            "PJM_PENE",
+            "PJM_SMAC",
+            "PJM_WMAC",
+            "PJM_West"
+        ],
+        "group": "V2G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "DE": {
+                "rps_ratio": 0.18
+            },
+            "IL": {
+                "rps_ratio": 0.3
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MD": {
+                "rps_ratio": 0.4
+            },
+            "MI": {
+                "rps_ratio": 0.1
+            },
+            "NJ": {
+                "rps_ratio": 0.3
+            },
+            "NC": {
+                "rps_ratio": 0.025
+            },
+            "OH": {
+                "rps_ratio": 0.0
+            },
+            "PA": {
+                "rps_ratio": 0.0
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.21
+            },
+            "WV": {
+                "rps_ratio": 0.0
+            },
+            "DC": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "14": {
+        "state": "PJM",
+        "state_name": "pjm",
+        "model_region": "PJM",
+        "jurisdiction": "PJM",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "DE",
+            "IL",
+            "IN",
+            "KY",
+            "MD",
+            "MI",
+            "NJ",
+            "NC",
+            "OH",
+            "PA",
+            "TN",
+            "VA",
+            "WV",
+            "DC"
+        ],
+        "included_nodes": [
+            "PJM_AP",
+            "PJM_ATSI",
+            "PJM_COMD",
+            "PJM_Dom",
+            "PJM_EMAC",
+            "PJM_PENE",
+            "PJM_SMAC",
+            "PJM_WMAC",
+            "PJM_West"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "DE": {
+                "rps_ratio": 0.28
+            },
+            "IL": {
+                "rps_ratio": 0.4
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MD": {
+                "rps_ratio": 0.5
+            },
+            "MI": {
+                "rps_ratio": 0.2
+            },
+            "NJ": {
+                "rps_ratio": 0.4
+            },
+            "NC": {
+                "rps_ratio": 0.125
+            },
+            "OH": {
+                "rps_ratio": 0.085
+            },
+            "PA": {
+                "rps_ratio": 0.08
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.31
+            },
+            "WV": {
+                "rps_ratio": 0.0
+            },
+            "DC": {
+                "rps_ratio": 0.0
+            }
+        }
+    },
+    "15": {
+        "state": "PJM",
+        "state_name": "pjm",
+        "model_region": "PJM",
+        "jurisdiction": "PJM",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "DE",
+            "IL",
+            "IN",
+            "KY",
+            "MD",
+            "MI",
+            "NJ",
+            "NC",
+            "OH",
+            "PA",
+            "TN",
+            "VA",
+            "WV",
+            "DC"
+        ],
+        "included_nodes": [
+            "PJM_AP",
+            "PJM_ATSI",
+            "PJM_COMD",
+            "PJM_Dom",
+            "PJM_EMAC",
+            "PJM_PENE",
+            "PJM_SMAC",
+            "PJM_WMAC",
+            "PJM_West"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "DE": {
+                "rps_ratio": 0.38
+            },
+            "IL": {
+                "rps_ratio": 0.5
+            },
+            "IN": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MD": {
+                "rps_ratio": 0.6
+            },
+            "MI": {
+                "rps_ratio": 0.3
+            },
+            "NJ": {
+                "rps_ratio": 0.5
+            },
+            "NC": {
+                "rps_ratio": 0.225
+            },
+            "OH": {
+                "rps_ratio": 0.185
+            },
+            "PA": {
+                "rps_ratio": 0.18
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.41
+            },
+            "WV": {
+                "rps_ratio": 0.0
+            },
+            "DC": {
+                "rps_ratio": 0.0
+            }
+        }
+    }
+}

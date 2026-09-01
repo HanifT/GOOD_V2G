@@ -1,0 +1,977 @@
+{
+    "1": {
+        "state": "SERC-N",
+        "state_name": "serc_n",
+        "model_region": "SERC-N",
+        "jurisdiction": "SERC-N",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AL",
+            "GA",
+            "KY",
+            "MO",
+            "MS",
+            "NC",
+            "TN",
+            "VA"
+        ],
+        "included_nodes": [
+            "S_C_KY",
+            "S_D_AECI",
+            "S_C_TVA"
+        ],
+        "group": "Base only",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AL": {
+                "rps_ratio": 0.0
+            },
+            "GA": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.05
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "NC": {
+                "rps_ratio": 0.025
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.21
+            }
+        }
+    },
+    "2": {
+        "state": "SERC-N",
+        "state_name": "serc_n",
+        "model_region": "SERC-N",
+        "jurisdiction": "SERC-N",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AL",
+            "GA",
+            "KY",
+            "MO",
+            "MS",
+            "NC",
+            "TN",
+            "VA"
+        ],
+        "included_nodes": [
+            "S_C_KY",
+            "S_D_AECI",
+            "S_C_TVA"
+        ],
+        "group": "Base only",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AL": {
+                "rps_ratio": 0.0
+            },
+            "GA": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.15
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "NC": {
+                "rps_ratio": 0.125
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.31
+            }
+        }
+    },
+    "3": {
+        "state": "SERC-N",
+        "state_name": "serc_n",
+        "model_region": "SERC-N",
+        "jurisdiction": "SERC-N",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AL",
+            "GA",
+            "KY",
+            "MO",
+            "MS",
+            "NC",
+            "TN",
+            "VA"
+        ],
+        "included_nodes": [
+            "S_C_KY",
+            "S_D_AECI",
+            "S_C_TVA"
+        ],
+        "group": "Base only",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AL": {
+                "rps_ratio": 0.0
+            },
+            "GA": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.25
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "NC": {
+                "rps_ratio": 0.225
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.41
+            }
+        }
+    },
+    "4": {
+        "state": "SERC-N",
+        "state_name": "serc_n",
+        "model_region": "SERC-N",
+        "jurisdiction": "SERC-N",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AL",
+            "GA",
+            "KY",
+            "MO",
+            "MS",
+            "NC",
+            "TN",
+            "VA"
+        ],
+        "included_nodes": [
+            "S_C_KY",
+            "S_D_AECI",
+            "S_C_TVA"
+        ],
+        "group": "V1G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AL": {
+                "rps_ratio": 0.0
+            },
+            "GA": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.05
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "NC": {
+                "rps_ratio": 0.025
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.21
+            }
+        }
+    },
+    "5": {
+        "state": "SERC-N",
+        "state_name": "serc_n",
+        "model_region": "SERC-N",
+        "jurisdiction": "SERC-N",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AL",
+            "GA",
+            "KY",
+            "MO",
+            "MS",
+            "NC",
+            "TN",
+            "VA"
+        ],
+        "included_nodes": [
+            "S_C_KY",
+            "S_D_AECI",
+            "S_C_TVA"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AL": {
+                "rps_ratio": 0.0
+            },
+            "GA": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.15
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "NC": {
+                "rps_ratio": 0.125
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.31
+            }
+        }
+    },
+    "6": {
+        "state": "SERC-N",
+        "state_name": "serc_n",
+        "model_region": "SERC-N",
+        "jurisdiction": "SERC-N",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AL",
+            "GA",
+            "KY",
+            "MO",
+            "MS",
+            "NC",
+            "TN",
+            "VA"
+        ],
+        "included_nodes": [
+            "S_C_KY",
+            "S_D_AECI",
+            "S_C_TVA"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.25,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AL": {
+                "rps_ratio": 0.0
+            },
+            "GA": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.25
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "NC": {
+                "rps_ratio": 0.225
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.41
+            }
+        }
+    },
+    "7": {
+        "state": "SERC-N",
+        "state_name": "serc_n",
+        "model_region": "SERC-N",
+        "jurisdiction": "SERC-N",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AL",
+            "GA",
+            "KY",
+            "MO",
+            "MS",
+            "NC",
+            "TN",
+            "VA"
+        ],
+        "included_nodes": [
+            "S_C_KY",
+            "S_D_AECI",
+            "S_C_TVA"
+        ],
+        "group": "V2G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AL": {
+                "rps_ratio": 0.0
+            },
+            "GA": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.05
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "NC": {
+                "rps_ratio": 0.025
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.21
+            }
+        }
+    },
+    "8": {
+        "state": "SERC-N",
+        "state_name": "serc_n",
+        "model_region": "SERC-N",
+        "jurisdiction": "SERC-N",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AL",
+            "GA",
+            "KY",
+            "MO",
+            "MS",
+            "NC",
+            "TN",
+            "VA"
+        ],
+        "included_nodes": [
+            "S_C_KY",
+            "S_D_AECI",
+            "S_C_TVA"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AL": {
+                "rps_ratio": 0.0
+            },
+            "GA": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.15
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "NC": {
+                "rps_ratio": 0.125
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.31
+            }
+        }
+    },
+    "9": {
+        "state": "SERC-N",
+        "state_name": "serc_n",
+        "model_region": "SERC-N",
+        "jurisdiction": "SERC-N",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AL",
+            "GA",
+            "KY",
+            "MO",
+            "MS",
+            "NC",
+            "TN",
+            "VA"
+        ],
+        "included_nodes": [
+            "S_C_KY",
+            "S_D_AECI",
+            "S_C_TVA"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.25,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AL": {
+                "rps_ratio": 0.0
+            },
+            "GA": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.25
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "NC": {
+                "rps_ratio": 0.225
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.41
+            }
+        }
+    },
+    "10": {
+        "state": "SERC-N",
+        "state_name": "serc_n",
+        "model_region": "SERC-N",
+        "jurisdiction": "SERC-N",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AL",
+            "GA",
+            "KY",
+            "MO",
+            "MS",
+            "NC",
+            "TN",
+            "VA"
+        ],
+        "included_nodes": [
+            "S_C_KY",
+            "S_D_AECI",
+            "S_C_TVA"
+        ],
+        "group": "V1G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AL": {
+                "rps_ratio": 0.0
+            },
+            "GA": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.05
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "NC": {
+                "rps_ratio": 0.025
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.21
+            }
+        }
+    },
+    "11": {
+        "state": "SERC-N",
+        "state_name": "serc_n",
+        "model_region": "SERC-N",
+        "jurisdiction": "SERC-N",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AL",
+            "GA",
+            "KY",
+            "MO",
+            "MS",
+            "NC",
+            "TN",
+            "VA"
+        ],
+        "included_nodes": [
+            "S_C_KY",
+            "S_D_AECI",
+            "S_C_TVA"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AL": {
+                "rps_ratio": 0.0
+            },
+            "GA": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.15
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "NC": {
+                "rps_ratio": 0.125
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.31
+            }
+        }
+    },
+    "12": {
+        "state": "SERC-N",
+        "state_name": "serc_n",
+        "model_region": "SERC-N",
+        "jurisdiction": "SERC-N",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AL",
+            "GA",
+            "KY",
+            "MO",
+            "MS",
+            "NC",
+            "TN",
+            "VA"
+        ],
+        "included_nodes": [
+            "S_C_KY",
+            "S_D_AECI",
+            "S_C_TVA"
+        ],
+        "group": "V1G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.5,
+        "v2g_share": 0.0,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AL": {
+                "rps_ratio": 0.0
+            },
+            "GA": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.25
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "NC": {
+                "rps_ratio": 0.225
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.41
+            }
+        }
+    },
+    "13": {
+        "state": "SERC-N",
+        "state_name": "serc_n",
+        "model_region": "SERC-N",
+        "jurisdiction": "SERC-N",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AL",
+            "GA",
+            "KY",
+            "MO",
+            "MS",
+            "NC",
+            "TN",
+            "VA"
+        ],
+        "included_nodes": [
+            "S_C_KY",
+            "S_D_AECI",
+            "S_C_TVA"
+        ],
+        "group": "V2G",
+        "rps_ratio": -0.1,
+        "rps_case": "rps_minus10",
+        "rps_label": "State RPS minus 10 percentage points",
+        "rps_display": "RPS \u221210 pp",
+        "rps_adjustment_label": "\u221210 pp",
+        "rps_adjustment_pp": -0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AL": {
+                "rps_ratio": 0.0
+            },
+            "GA": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.05
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "NC": {
+                "rps_ratio": 0.025
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.21
+            }
+        }
+    },
+    "14": {
+        "state": "SERC-N",
+        "state_name": "serc_n",
+        "model_region": "SERC-N",
+        "jurisdiction": "SERC-N",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AL",
+            "GA",
+            "KY",
+            "MO",
+            "MS",
+            "NC",
+            "TN",
+            "VA"
+        ],
+        "included_nodes": [
+            "S_C_KY",
+            "S_D_AECI",
+            "S_C_TVA"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.0,
+        "rps_case": "rps_base",
+        "rps_label": "State RPS baseline",
+        "rps_display": "RPS baseline",
+        "rps_adjustment_label": "baseline",
+        "rps_adjustment_pp": 0.0,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AL": {
+                "rps_ratio": 0.0
+            },
+            "GA": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.15
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "NC": {
+                "rps_ratio": 0.125
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.31
+            }
+        }
+    },
+    "15": {
+        "state": "SERC-N",
+        "state_name": "serc_n",
+        "model_region": "SERC-N",
+        "jurisdiction": "SERC-N",
+        "region_type": "multi_state_region",
+        "included_states": [
+            "AL",
+            "GA",
+            "KY",
+            "MO",
+            "MS",
+            "NC",
+            "TN",
+            "VA"
+        ],
+        "included_nodes": [
+            "S_C_KY",
+            "S_D_AECI",
+            "S_C_TVA"
+        ],
+        "group": "V2G",
+        "rps_ratio": 0.1,
+        "rps_case": "rps_plus10",
+        "rps_label": "State RPS plus 10 percentage points",
+        "rps_display": "RPS +10 pp",
+        "rps_adjustment_label": "+10 pp",
+        "rps_adjustment_pp": 0.1,
+        "v1g_share": 0.0,
+        "v2g_share": 0.5,
+        "batt_capex_cost": 8.6e-05,
+        "batt_capex_label": "$315/kWh",
+        "rps_non_compliance_capacity": 15000.0,
+        "rps_non_compliance_cost": 5e-05,
+        "reserve_margin": 0.15,
+        "reserve_margin_sign": -1,
+        "reserve_non_compliance_capacity": 0.0,
+        "reserve_non_compliance_cost": 1000000.0,
+        "state_rps_policies": {
+            "AL": {
+                "rps_ratio": 0.0
+            },
+            "GA": {
+                "rps_ratio": 0.0
+            },
+            "KY": {
+                "rps_ratio": 0.0
+            },
+            "MO": {
+                "rps_ratio": 0.25
+            },
+            "MS": {
+                "rps_ratio": 0.0
+            },
+            "NC": {
+                "rps_ratio": 0.225
+            },
+            "TN": {
+                "rps_ratio": 0.0
+            },
+            "VA": {
+                "rps_ratio": 0.41
+            }
+        }
+    }
+}
